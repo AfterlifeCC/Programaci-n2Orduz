@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    int in=1,fi=10,i,j,prod;
+		for(i=in; i<=fi; i++)
+	{
+	   for(j=in; j<=fi; j++){
+           prod=i*j;
+	printf("%d x %d = %d \n", i,j, prod);
+
+	}}
+}
