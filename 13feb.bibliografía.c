@@ -50,7 +50,7 @@ scanf("%i",&libros[4].anio);
 
 for(i=0; i<n; i++)
 {
-printf("Este libro es: %s %s %s %d\n",libros[i].titulo,libros[i].autor, libros[i].editorial);
+printf("Este libro es: %s %s %s %d\n",libros[i].titulo,libros[i].autor, libros[i].editorial, libros[i].anio);
 }
 
 return 0;
