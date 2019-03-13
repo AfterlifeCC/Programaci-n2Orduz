@@ -1,0 +1,30 @@
+#include<stdio.h>
+#include<math.h>
+
+struct SUM
+{
+  int sumuno;
+  int sumdos;
+  int Zi;
+  
+};
+//identifico z1,z2,z3 como los elementos de la estructura y compad como la variable de la estructura
+int main() {
+//declarar que a es la parte real y b es la parte imaginaria
+    //int Z1=a1+b1i;
+    //int Z2=a2+b2i;
+    int a1=2;
+    int a2=4;
+    int a3=6;
+    int b1=-1;
+    int b2=2;
+    int b3=-6;
+    int a1+a2=auno;
+    int b1+b2=buno;
+    
+    Zi=a+bi;
+    sumuno=(a1+a2)+i(b1+b2);
+    sumuno=auno+buno(i);
+    sumdos=(auno+a3)+(buno+b3);
+   printf(" %i", sumdos);
+}
