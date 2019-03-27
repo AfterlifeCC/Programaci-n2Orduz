@@ -6,9 +6,9 @@ void main ()
 char nombre[n];
 char apellido[n];
 
-printf("Como te gusta que te llamen? ");
+printf("Cual es tu nombre");
 scanf("%[^\n]%*c", nombre);
-printf("Cual es tu apellido (sin espacios)? ");
+printf("Cual es tu apellido");
 scanf("%[^\n]", apellido);
 
 printf("\v\tHola %s tu apellido es %s\n", nombre, apellido);
