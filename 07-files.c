@@ -8,6 +8,7 @@ char c1, c2;
 //Si no se crea el archivo 01.txt la terminal regresa "Error al abrir el archivo original", y si se crea el 01.txt la terminal no regresa
 //nada, pero crea el archivo 02.txt en el que copia 2 caracteres.
 fptr1 = fopen("07-files01.txt","r");
+//"r" -> read  "w" -> write
 
  if(fptr1 == NULL)
    {
